@@ -1,0 +1,12 @@
+# Ignorar datos crudos y resultados generados (Archivos sensibles)
+data/**/*.csv
+data/**/*.xlsx
+outputs/*.csv
+
+# Ignorar caché de Python
+__pycache__/
+*.pyc
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
