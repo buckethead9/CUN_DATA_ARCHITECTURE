@@ -1,4 +1,4 @@
-# CUN Data Architecture — Sistema de Trazabilidad Académica
+# DOCENT DATA LEDGER — Sistema de Trazabilidad Académica
 
 Pipeline ETL que consolida el registro de calificaciones y asistencia de un
 curso universitario (652 estudiantes, 15 grupos, 6 materias, modalidad
@@ -13,7 +13,7 @@ problemas de integridad reales que este pipeline detectó — ver
 ## Estructura del proyecto
 
 ```
-CUN_DATA_ARCHITECTURE/
+DOCENT_DATA_LEDGER
 ├── main.py                  # motor ETL (punto de entrada)
 ├── data/
 │   ├── core/                # dimensiones: REGISTRO_ESTUDIANTES, REGISTRO_SESIONES,
